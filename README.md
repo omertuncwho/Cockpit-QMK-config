@@ -13,5 +13,5 @@
 
 ## Flash firmware
 - The QMK Toolbox can be used to write non-customized keymaps via a GUI, avoiding the need to configure a local QMK environment. Get the latest release [here](https://github.com/qmk/qmk_toolbox/releases).
----
+---+
 [Cockpit Keyboard](https://github.com/ozkan/Cockpit-Keyboard)
