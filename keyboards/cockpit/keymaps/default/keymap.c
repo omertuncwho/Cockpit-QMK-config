@@ -69,16 +69,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //                                          │ LEFT │ DOWN │ RIGHT│
 //                                          ╰──────┴──────┴──────╯
 
-  [_COLEMAK] = LAYOUT_cockpit(
-    KC_TAB,     TR_Q,          TR_W,          TR_F,          TR_P,     TR_G,             TR_J,  TR_L,  TR_U,             TR_Y,            TR_SCLN,   KC_BSPC,
-    KC_LCTL,   TR_A,          TR_R,          TR_S,          ARROW_T,  TR_D,             TR_H,  TR_N,  TR_E,             TR_IDOT,         TR_O,      TR_QUOT,
-    LSFT_CAPS,  LALT_T(TR_Z),  LCTL_T(TR_X),  LSFT_T(TR_C),  TR_V,     TR_B,             TR_K,  TR_M,  RSFT_T(TR_COMM),  RCTL_T(TR_DOT),  TR_SLSH,   KC_ENT,
-                                                                          KC_MPLY,   KC_MUTE,
-                                         KC_LALT,   LOWER,    FNL_ENT,                           FNR_SPC,   RAISE,   KC_RGUI,    
-                                                                                 KC_UP,
-                                                                    KC_LEFT,    KC_DOWN,  KC_RGHT
+//  [_COLEMAK] = LAYOUT_cockpit(
+//    KC_TAB,     TR_Q,          TR_W,          TR_F,          TR_P,     TR_G,             TR_J,  TR_L,  TR_U,             TR_Y,            TR_SCLN,   KC_BSPC,
+//    KC_LCTL,   TR_A,          TR_R,          TR_S,          ARROW_T,  TR_D,             TR_H,  TR_N,  TR_E,             TR_IDOT,         TR_O,      TR_QUOT,
+//    LSFT_CAPS,  LALT_T(TR_Z),  LCTL_T(TR_X),  LSFT_T(TR_C),  TR_V,     TR_B,             TR_K,  TR_M,  RSFT_T(TR_COMM),  RCTL_T(TR_DOT),  TR_SLSH,   KC_ENT,
+ //                                                                         KC_MPLY,   KC_MUTE,
+//                                         KC_LALT,   LOWER,    FNL_ENT,                           FNR_SPC,   RAISE,   KC_RGUI,    
+ //                                                                                KC_UP,
+  //                                                                  KC_LEFT,    KC_DOWN,  KC_RGHT
 
-  ),
+//  ),
 
 // COLEMAK DH
 // ╭──────┬──────┬──────┬──────┬──────┬──────╮                   ╭──────┬──────┬──────┬──────┬──────┬──────╮
@@ -97,16 +97,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //                                          │ LEFT │ DOWN │ RIGHT│
 //                                          ╰──────┴──────┴──────╯
 
-  [_COLEMAKDH] = LAYOUT_cockpit(
-    KC_TAB,     TR_Q,          TR_W,          TR_F,          TR_P,     TR_B,             TR_J,  TR_L,  TR_U,             TR_Y,            TR_SCLN,   KC_BSPC,
-    KC_LCTL,   TR_A,          TR_R,          TR_S,          ARROW_T,  TR_G,             TR_M,  TR_N,  TR_E,             TR_IDOT,         TR_O,      TR_QUOT,
-    LSFT_CAPS,  LALT_T(TR_Z),  LCTL_T(TR_X),  LSFT_T(TR_C),  TR_D,     TR_V,             TR_K,  TR_H,  RSFT_T(TR_COMM),  RCTL_T(TR_DOT),  TR_SLSH,   KC_ENT,
-                                                                          KC_MPLY,   KC_MUTE,
-                                         KC_LALT,   LOWER,    FNL_ENT,                           FNR_SPC,   RAISE,   KC_RGUI,    
-                                                                                 KC_UP,
-                                                                    KC_LEFT,    KC_DOWN,  KC_RGHT
-
-  ),
+//  [_COLEMAKDH] = LAYOUT_cockpit(
+//    KC_TAB,     TR_Q,          TR_W,          TR_F,          TR_P,     TR_B,             TR_J,  TR_L,  TR_U,             TR_Y,            TR_SCLN,   KC_BSPC,
+//    KC_LCTL,   TR_A,          TR_R,          TR_S,          ARROW_T,  TR_G,             TR_M,  TR_N,  TR_E,             TR_IDOT,         TR_O,      TR_QUOT,
+//    LSFT_CAPS,  LALT_T(TR_Z),  LCTL_T(TR_X),  LSFT_T(TR_C),  TR_D,     TR_V,             TR_K,  TR_H,  RSFT_T(TR_COMM),  RCTL_T(TR_DOT),  TR_SLSH,   KC_ENT,
+//                                                                          KC_MPLY,   KC_MUTE,
+//                                         KC_LALT,   LOWER,    FNL_ENT,                           FNR_SPC,   RAISE,   KC_RGUI,    
+//                                                                                 KC_UP,
+//                                                                    KC_LEFT,    KC_DOWN,  KC_RGHT
+//
+//  ),
 
 
   [_QWERTY] = LAYOUT_cockpit(
